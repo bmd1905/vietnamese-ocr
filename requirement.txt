@@ -1,0 +1,4 @@
+einops==0.2.0
+paddlepaddle
+pyclipper
+lmdb
