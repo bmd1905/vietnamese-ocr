@@ -1,7 +1,7 @@
+.DS_Store/
 
 predict_temp.ipynb
 .ipynb_checkpoints/
-VietnameseOcrCorrection/
 vi00_vi01_transformer.yml/
 colab_paddle.ipynb/
 output/
