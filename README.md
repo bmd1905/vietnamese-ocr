@@ -14,7 +14,7 @@ This is a project about Optical Character Recognition (OCR) in Vietnamese texts 
 Firstly, clone this repository by executing:
 
 ```
-git clone
+git clone https://github.com/bmd1905/vietnamese-ocr
 ```
 
 After cloning the repository, download the required dependencies by running:
