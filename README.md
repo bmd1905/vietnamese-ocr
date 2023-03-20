@@ -1,7 +1,5 @@
 # Vietnamese OCR
 
-Ongoing Project
-
 This is a project about Optical Character Recognition (OCR) in Vietnamese texts by using PaddleOCR and VietOCR.
 
 # Outline
