@@ -2,6 +2,8 @@
 
 This project is about Optical Character Recognition (OCR) in Vietnamese texts. It uses PaddleOCR and VietOCR frameworks to achieve this. PaddleOCR is a popular OCR framework that provides a wide range of OCR models and tools. VietOCR is a popular framework for Vietnamese OCR task, based on Transformer OCR architecture.
 
+>Note that: this model is just a compiling model, which means that I have simply gathered scripts from models in order to create a cohesive and comprehensive result. The end-to-end project will be started in the near future.
+
 # Outline
 
 1. Text Detection
