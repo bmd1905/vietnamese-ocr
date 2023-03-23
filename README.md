@@ -1,13 +1,22 @@
 # Vietnamese OCR
 
-This is a project about Optical Character Recognition (OCR) in Vietnamese texts by using PaddleOCR and VietOCR.
+This project is about Optical Character Recognition (OCR) in Vietnamese texts. It uses PaddleOCR and VietOCR frameworks to achieve this. PaddleOCR is a popular OCR framework that provides a wide range of OCR models and tools. VietOCR is a popular framework for Vietnamese OCR task, based on Transformer OCR architecture.
 
 # Outline
 
 1. Text Detection
 2. Text Recognition
 
-# How to use
+# Text Dectection
+Text detection is the process of locating text in an image or video and recognizing the presence of characters. The [DB algorithm](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_en/algorithm_det_db_en.md) is a popular algorithm used in the [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) framework to localize text in the input image. It works by detecting the text regions in the image and then grouping them into text lines. This algorithm is known for its high accuracy and speed.
+
+To enhance the accuracy of Text Recognition, images cropped by the DB algorithm were padded. This is because the padding helps to ensure that the text is not cut off during the recognition process.
+
+# Text Recognition
+
+Text Recognition is the process of recognizing the text in an image or video. For Text Recognition part, you used [VietOCR](https://github.com/pbcquoc/vietocr), which is a popular framework for Vietnamese OCR task. It is based on Transformer OCR architecture. The Transformer OCR architecture is a combination of the CNN and Transformer models. The CNN model is used to extract features from the input image, while the Transformer model is used to recognize the text in the image. This architecture is known for its high accuracy and speed.
+
+# Usage
 
 Firstly, clone this repository by executing:
 
@@ -29,15 +38,7 @@ python predict.py
     --output path/of/output_image
 ```
 
-For Jupyter Notebook, you can explore and experiment with the code in predict.ipynb.
-
-# Text Dectection
-
-For the Text Detection task, the [DB algorithm](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_en/algorithm_det_db_en.md) was used in the [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) framework to localize text in the input image. To enhance the accuracy of Text Recognition, images cropped by the DB algorithm were padded.
-
-# Text Recognition
-
-For Text Recognitionm part, I used [VietOCR](https://github.com/pbcquoc/vietocr)-a popular framework for Vietnamese OCR task, baseded on Transformer OCR architecture.
+For Jupyter Notebook, you can explore and experiment with the code at [predict.ipynb](https://github.com/bmd1905/vietnamese-ocr/blob/master/predict.ipynb).
 
 # References
 
